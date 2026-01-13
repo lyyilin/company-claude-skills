@@ -15,12 +15,12 @@
 ### 步骤 1：Fork 并克隆仓库
 
 1. **Fork 仓库**
-   - 访问 `https://github.com/your-company/company-claude-skills`
+   - 访问 `https://github.com/lyyilin/company-claude-skills.git`
    - 点击右上角的 "Fork" 按钮
 
 2. **克隆到本地**
    ```bash
-   git clone https://github.com/your-username/company-claude-skills.git
+   git clone https://github.com/lyyilin/company-claude-skills.git
    cd company-claude-skills
    ```
 
