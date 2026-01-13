@@ -167,7 +167,6 @@ git push origin add-my-skill-name
 ```
 skills/your-skill-name/
 ├── SKILL.md              ✅ 必需
-├── instructions.md       ✅ 必需
 └── README.md            ⭕ 可选
 ```
 
@@ -177,7 +176,6 @@ skills/your-skill-name/
 
 - [ ] Skill 名称使用小写和连字符
 - [ ] SKILL.md 包含所有必需字段
-- [ ] instructions.md 清晰完整
 - [ ] 提供了使用示例
 - [ ] 没有包含敏感信息（API 密钥等）
 - [ ] 测试过 Skill 可以正常工作
