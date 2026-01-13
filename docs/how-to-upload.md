@@ -9,19 +9,18 @@
 - ✅ 安装了 Git
 - ✅ 配置了 GitHub 账号
 - ✅ 有一个已开发完成的 Skill
-- ✅ 阅读了 [Skill 开发规范](./skill-guidelines.md)
 
 ## 🚀 方法一：使用 Git 命令行（推荐）
 
 ### 步骤 1：Fork 并克隆仓库
 
 1. **Fork 仓库**
-   - 访问 `https://github.com/your-company/company-claude-skills`
+   - 访问 `https://github.com/lyyilin/company-claude-skills.git`
    - 点击右上角的 "Fork" 按钮
 
 2. **克隆到本地**
    ```bash
-   git clone https://github.com/your-username/company-claude-skills.git
+   git clone https://github.com/lyyilin/company-claude-skills.git
    cd company-claude-skills
    ```
 
@@ -68,15 +67,6 @@ git checkout -b add-my-skill-name
    提供实际的使用示例...
    ```
 
-3. **填写 instructions.md**
-   
-   编辑 `skills/your-skill-name/instructions.md`：
-   
-   ```markdown
-   # 技能指令
-   
-   这里是给 Claude 的具体指令...
-   ```
 
 ### 步骤 4：验证你的 Skill
 
@@ -167,7 +157,6 @@ git push origin add-my-skill-name
 ```
 skills/your-skill-name/
 ├── SKILL.md              ✅ 必需
-├── instructions.md       ✅ 必需
 └── README.md            ⭕ 可选
 ```
 
@@ -177,7 +166,6 @@ skills/your-skill-name/
 
 - [ ] Skill 名称使用小写和连字符
 - [ ] SKILL.md 包含所有必需字段
-- [ ] instructions.md 清晰完整
 - [ ] 提供了使用示例
 - [ ] 没有包含敏感信息（API 密钥等）
 - [ ] 测试过 Skill 可以正常工作
