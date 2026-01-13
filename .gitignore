@@ -1,0 +1,47 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Sensitive information
+*.key
+*.pem
+*.env
+.env.local
+secrets/
+credentials/
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Test files (if not part of skill)
+test/
+tests/
+*.test.js
+*.spec.js
