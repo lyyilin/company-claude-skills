@@ -20,7 +20,6 @@
 ```
 skills/your-skill-name/
 ├── SKILL.md              # 必需：技能说明文档
-├── instructions.md       # 必需：技能指令
 └── README.md            # 可选：额外说明
 ```
 
@@ -31,7 +30,6 @@ skills/your-skill-name/
 ```
 skills/your-skill-name/
 ├── SKILL.md
-├── instructions.md
 ├── README.md
 ├── examples/            # 示例文件
 │   └── example.txt
@@ -88,34 +86,6 @@ dependencies:                 # 可选：依赖项
 ## 限制和注意事项
 说明已知的限制和使用注意事项。
 ```
-
-### instructions.md（必需）
-
-这是给 Claude 的指令文件：
-
-```markdown
-# 技能指令
-
-## 目标
-说明这个 Skill 的目标...
-
-## 工作流程
-1. 第一步...
-2. 第二步...
-3. 第三步...
-
-## 具体指令
-详细的指令内容...
-
-## 输出格式
-说明期望的输出格式...
-```
-
-**要求：**
-- ✅ 指令清晰、具体
-- ✅ 逻辑结构合理
-- ✅ 包含必要的上下文
-- ✅ 说明输出格式
 
 ### README.md（可选）
 
