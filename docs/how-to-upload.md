@@ -68,15 +68,6 @@ git checkout -b add-my-skill-name
    提供实际的使用示例...
    ```
 
-3. **填写 instructions.md**
-   
-   编辑 `skills/your-skill-name/instructions.md`：
-   
-   ```markdown
-   # 技能指令
-   
-   这里是给 Claude 的具体指令...
-   ```
 
 ### 步骤 4：验证你的 Skill
 
